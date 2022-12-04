@@ -11,3 +11,4 @@ with open('day1.in', 'r') as file:
 
     calories.sort(reverse=True)
     print(sum([int(x) for x in calories[0:3]]))
+    
