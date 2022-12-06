@@ -76,8 +76,6 @@ fs.readFile('./day5.in', 'utf8', (err, data) => {
         let b = []
         for(let i = 0; i < val; i++) {  
             b.push(boxes[`${from}`].pop())
-            // let b = boxes[`${from}`].pop()
-            // boxes[`${to}`].push(b)
         }
         b.reverse()
         b.forEach((bb) => {
